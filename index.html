@@ -1,41 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>HealthWisdom</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HealthWisdom AI - Home</title>
+  <script data-ad-client="ca-pub-5739867765605477" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <style>
-    body { font-family: Arial, background: #f6fff6; margin: 0; }
-    .hero { background: linear-gradient(135deg, #38ef7d, #11998e); color: #fff; padding: 60px 20px; text-align: center; }
-    .hero h1 { font-size: 2.8rem; margin-bottom: 10px; }
-    .hero input[type="text"] { padding: 12px; width: 40vw; border-radius: 24px; border: none; margin-top: 20px; font-size: 1.2rem; }
-    nav { background: #ffffffcc; padding: 12px 0; box-shadow: 0 2px 8px rgba(56, 239, 125, 0.15); position: sticky; top: 0; }
-    nav a { color: #11998e; margin: 0 18px; text-decoration: none; font-weight: bold; font-size: 1.15rem; }
-    .cards { display: flex; flex-wrap: wrap; justify-content: center; margin: 40px 0; gap: 18px;}
-    .card { background: #fff; color: #333; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.07); padding: 30px; width: 270px; }
-    @media (max-width: 800px) {
-      .cards { flex-direction: column; align-items: center;}
-      .hero input[type="text"] { width: 80vw; }
+  body, html {
+    margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f6fff6; color: #333; scroll-behavior: smooth;
+  }
+  a { text-decoration: none; color: #177a75; }
+  a:hover { color: #0d4f4d; }
+  h1, h2, h3 { color: #11998e; }
+  h3 { margin-top: 0; }
+  p, li { line-height: 1.5em; }
+  ul { margin-left: 1.5em; }
+
+  /* Container */
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  /* Navigation */
+  nav {
+    background: #38ef7d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 13px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  }
+  nav a {
+    margin: 0 20px;
+    color: white;
+    font-size: 1.1rem;
+  }
+  nav a:hover {
+    color: #004d40;
+    text-decoration: underline;
+  }
+
+  /* Section Titles */
+  section h2 {
+    border-bottom: 3px solid #38ef7d;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+  }
+
+  /* Footer */
+  footer {
+    background: #11998e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.95rem;
+    margin-top: 50px;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    nav {
+      flex-wrap: wrap;
     }
-  </style>
+    nav a {
+      margin: 10px 8px;
+      font-size: 1rem;
+    }
+  }
+</style>
 </head>
 <body>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="diseases.html">Diseases</a>
-    <a href="foods.html">Food Insights</a>
-    <a href="tips.html">Health Tips</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <div class="hero">
-    <h1>Unlock Your Health Potential With AI Tips</h1>
-    <p>Personalized advice for every ailment. Trusted guidance for food choices.<br>Search for disease or food item:</p>
-    <input type="text" placeholder="e.g. Diabetes, Apple, Hypertension...">
+  <a href="index.html">Home</a>
+  <a href="diseases.html">Diseases</a>
+  <a href="foods.html">Food Insights</a>
+  <a href="tips.html">Health Tips</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+  <div class="container">
+    <h1>Welcome to HealthWisdom AI</h1>
+    <p>Your one-stop source for trusted health tips, diet advice, Ayurvedic information, and natural home remedies.</p>
+
+    <!-- AdSense Ad Unit -->
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center; margin: 20px auto;"
+         data-ad-layout="in-article"
+         data-ad-format="fluid"
+         data-ad-client="ca-pub-5739867765605477"
+         data-ad-slot="1234567890"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({{}});</script>
+
+    <p>Explore our sections to learn more about diseases, foods, health tips, and home remedies.</p>
   </div>
-  <div class="cards">
-    <div class="card"><h3>Diabetes Care</h3><p>Smart eating, regular exercise, best foods, and medical advice for diabetes.</p></div>
-    <div class="card"><h3>Healthy Foods</h3><p>Benefits & cautions for every food: fruits, vegetables, proteins, snacks, and more.</p></div>
-    <div class="card"><h3>Heart Health Tips</h3><p>Daily habits that support a strong heart, plus practical food swaps.</p></div>
-  </div>
+  <footer>&copy; 2025 HealthWisdom AI. All rights reserved.</footer>
 </body>
 </html>
