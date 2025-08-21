@@ -1,22 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Diseases & Care - HealthWisdom</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diseases - HealthWisdom AI</title>
+  <script data-ad-client="ca-pub-5739867765605477" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <style>
-    body { font-family: Arial, background: #f6fff6; margin: 0; }
-    nav { background: #ffffffcc; padding: 12px 0; box-shadow: 0 2px 8px rgba(56, 239, 125, 0.15); position: sticky; top: 0; }
-    nav a { color: #11998e; margin: 0 18px; text-decoration: none; font-weight: bold; font-size: 1.15rem; }
-    .container { max-width: 900px; margin: 32px auto; background: #fff; padding: 32px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.07);}
-    h1 { color: #11998e; margin-bottom: 24px; }
-    .disease { margin-bottom: 34px; }
-    .disease h2 { margin-top: 0; color: #38ef7d; }
-    .disease ul { margin: 10px 0; }
-    .disclaimer { font-size: 0.95em; color: #666; margin-top: 18px;}
-  </style>
+  body, html {
+    margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f6fff6; color: #333; scroll-behavior: smooth;
+  }
+  a { text-decoration: none; color: #177a75; }
+  a:hover { color: #0d4f4d; }
+  h1, h2, h3 { color: #11998e; }
+  h3 { margin-top: 0; }
+  p, li { line-height: 1.5em; }
+  ul { margin-left: 1.5em; }
+
+  /* Container */
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  /* Navigation */
+  nav {
+    background: #38ef7d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 13px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  }
+  nav a {
+    margin: 0 20px;
+    color: white;
+    font-size: 1.1rem;
+  }
+  nav a:hover {
+    color: #004d40;
+    text-decoration: underline;
+  }
+
+  /* Section Titles */
+  section h2 {
+    border-bottom: 3px solid #38ef7d;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+  }
+
+  /* Footer */
+  footer {
+    background: #11998e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.95rem;
+    margin-top: 50px;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    nav {
+      flex-wrap: wrap;
+    }
+    nav a {
+      margin: 10px 8px;
+      font-size: 1rem;
+    }
+  }
+</style>
 </head>
 <body>
-<nav>
+  <nav>
   <a href="index.html">Home</a>
   <a href="diseases.html">Diseases</a>
   <a href="foods.html">Food Insights</a>
@@ -24,39 +85,43 @@
   <a href="about.html">About</a>
   <a href="contact.html">Contact</a>
 </nav>
-<div class="container">
-  <h1>Disease Guidance & Tips</h1>
-  <div class="disease">
-    <h2>Diabetes</h2>
-    <ul>
-      <li>Eat complex carbs (whole grains, vegetables) instead of refined sugars.</li>
-      <li>Exercise at least 30 minutes per day.</li>
-      <li>Monitor blood sugar regularly; consult your doctor for medication advice.</li>
-      <li><b>Best foods:</b> Leafy greens, berries, lean proteins.</li>
-      <li><b>Limit:</b> Sugary snacks, refined carbs, sweet drinks.</li>
-    </ul>
+  <div class="container">
+    <h1>Common Diseases - Tips and Control</h1>
+
+    <!-- AdSense Ad Unit -->
+    <ins class="adsbygoogle" style="display:block; text-align:center; margin: 20px auto;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-5739867765605477" data-ad-slot="1234567891"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({{}});</script>
+
+    <section>
+      <article>
+        <h2>Diabetes</h2>
+        <p><b>Symptoms:</b> Frequent urination, increased thirst, fatigue.</p>
+        <p><b>Control Tips:</b></p>
+        <ul>
+          <li>Follow a diet low in refined sugars and high in fiber.</li>
+          <li>Exercise regularly.</li>
+          <li>Monitor blood sugar frequently.</li>
+          <li>Consult your healthcare provider.</li>
+        </ul>
+        <p><b>Recommended Foods:</b> Leafy greens, berries, whole grains.</p>
+      </article>
+
+      <article>
+        <h2>Hypertension</h2>
+        <p><b>Symptoms:</b> Headaches, dizziness.</p>
+        <p><b>Control Tips:</b></p>
+        <ul>
+          <li>Reduce salt intake.</li>
+          <li>Eat potassium-rich foods.</li>
+          <li>Exercise regularly.</li>
+          <li>Limit alcohol and smoking.</li>
+        </ul>
+        <p><b>Recommended Foods:</b> Fruits, vegetables.</p>
+      </article>
+
+      <!-- More diseases can be added here -->
+    </section>
   </div>
-  <div class="disease">
-    <h2>Hypertension (High Blood Pressure)</h2>
-    <ul>
-      <li>Reduce salt; flavor with herbs/spices instead.</li>
-      <li>Eat more potassium-rich foods: bananas, spinach, oranges.</li>
-      <li>Physical activities like walking, cycling, swimming help regulate pressure.</li>
-      <li><b>Limit:</b> Processed foods, red meat, excess alcohol.</li>
-    </ul>
-  </div>
-  <div class="disease">
-    <h2>Heart Disease Prevention</h2>
-    <ul>
-      <li>Prioritize omega-3 rich foods: salmon, flaxseeds, walnuts.</li>
-      <li>Swap saturated fats for healthy alternatives (olive oil, nuts, avocado).</li>
-      <li>Maintain an active lifestyle.</li>
-      <li><b>Limit:</b> Deep-fried foods, high-sugar desserts, trans fats.</li>
-    </ul>
-  </div>
-  <div class="disclaimer">
-    <b>Disclaimer:</b> This site gives general advice. Always consult your doctor for personal health issues.
-  </div>
-</div>
+  <footer>&copy; 2025 HealthWisdom AI. All rights reserved.</footer>
 </body>
 </html>
